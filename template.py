@@ -1,5 +1,5 @@
 import os
-
+import numpy
 
 dirs=[
     os.path.join("data","raw" ),
@@ -25,3 +25,4 @@ files =[
 for file_ in files:
     with open(file_,"w") as f:
         pass
+
